@@ -27,7 +27,7 @@ class CitySeeder extends Seeder
         while (($data = fgetcsv($file)) !== false) {
             $name = $data[1];
             $country_name = $data[4];
-            // $country = Country::where('name', $country_name)->first();
+            $country = Country::where('name', $country_name)->first();
             $city = City::where('name', $name)->where('country_id', $country->id)->first();
 
             // Insert data into cities table
