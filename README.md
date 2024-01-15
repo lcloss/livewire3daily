@@ -56,9 +56,7 @@ Algumas modificações foram feitas no projeto original:
 
 ## Estado
 
-<p align="center">
-<a href="https://github.com/lcloss/livewire3daily/actions"><img src="https://github.com/lcloss/livewire3daily/workflows/tests/badge.svg" alt="Build Status"></a>
-</p>
+[![Laravel](https://github.com/lcloss/livewire3daily/actions/workflows/laravel.yml/badge.svg)](https://github.com/lcloss/livewire3daily/actions/workflows/laravel.yml)
 
 ## License
 
