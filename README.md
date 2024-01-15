@@ -47,6 +47,15 @@ Foram criados os testes `CreatePostTest`, `ShowDashboardTest` e `UrlQueryParamet
 
 ## Modificações
 
+Algumas modificações foram feitas no projeto original:
+
+- Foi adicionado CRUD às categorias de produtos.
+- Os produtos tem o preço formatado em euros.
+- Foi adicionado o `CountrySeeder` e `CitySeeder` para popular a base de dados.
+- Foram adicionados outros campos ao `Country` e `City` models.
+
+## Estado
+
 <p align="center">
 <a href="https://github.com/lcloss/livewire3daily/actions"><img src="https://github.com/lcloss/livewire3daily/workflows/tests/badge.svg" alt="Build Status"></a>
 </p>
