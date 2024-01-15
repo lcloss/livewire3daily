@@ -33,6 +33,8 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: php artisan migrate:fresh --seed
+    - name: Prepare Vite assets
+      run: npm run build
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
